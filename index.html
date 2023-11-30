@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IZTO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+   
+   
+
+     <div class="form-div">
+     <center> <img src="bgelement.png" align="center" width="25%" style="margin-top: -6%;"></center>
+   
+
+
+      <div>
+   <div>
+<div style="float: left; padding: 10px; margin-left: 100px;">
+   <form action="">
+  <label for="fname">Oda Sicil No</label><br>
+  <input class="form-stil" type="number" id="odaSicilNo" name="odaSicilNo" placeholder="00000000" value=""><br>
+  <label for="lname">Ticari Sicil No</label><br>
+  <input class="form-stil" type="number" id="ticariSicilNo" name="ticariSicilNo" placeholder="00000000" value=""><br>
+  
+</form>
+</div>
+<div style="float: left; padding: 10px;">
+   <form action="">
+  
+  
+  <label for="fname">İlçe Kodu</label><br>
+  <input  class="form-stil" type="number" id="ilceKodu" name="ilceKodu" placeholder="00" value=""><br>
+</form>
+</div>
+<div style="padding: 10px;">
+   <form action="">
+  <label for="fname">Unvan</label><br>
+  <input style="width: 20%;" class="form-drop" type="text" id="fname" name="fname" placeholder="Unvan yazınız">
+  
+  
+</form>
+</div>
+   </div>
+
+
+
+    <div>
+   <label style="margin-left: 10px;" for="fname">Meslek Grubu</label><br>
+  <select class="form-drop" id="komite" name="komite" style="font-size: 12px; margin-left: 10px; margin-top: -3px">
+      <option value="01">01-YAŞ SEBZE MEYVE GRUBU</option>
+      <option value="02">02-KURUTULMUŞ MEYVE VE ÇEREZLER GRUBU</option>
+      <option value="03">03-TARIMSAL HAMMADDE ARACILARI PAMUK TÜTÜN VE BAHARATÇ...</option>
+      <option value="53"> 53-OTOMOTİV VE DİĞER ULAŞIM ARAÇLARI PARÇALARININ İMAL...</option>
+     
+    </select><br>
+    </div>
+<br>
+<center>
+<button class="sorgula"><b>SORGULA</b></button>
+<button class="sorgula" style="background-color: white; opacity: 0.27; width: 165px;"><b style="color: #0D284F;">EXCEL'E AKTAR</b></button>
+<button class="sorgula" style="background-color: white; opacity: 0.27; width: 150px;"><b style="color: #0D284F;">PDF'E AKTAR</b></button>
+
+</center>
+
+
+
+</div>
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#707070;border-spacing:0; width: 100%; border-left-color: #0D284F; border-right-color: #0D284F; }
+.tg td{background-color:#133967;border-color:#707070;border-style:solid;border-width:1px;color:#002b36;
+  font-family:Mulish, sans-serif;font-size:14px;overflow:hidden;padding:12px 5px;word-break:normal;}
+.tg th{background-color:#12497C;border-color:#707070;border-style:solid;border-width:1px;color:#fdf6e3;
+  font-family:Mulish, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-b2ze{border-color:#707070;font-size:14px;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-k8w4{border-color:#707070;font-family:Mulish, serif !important;font-size:14px;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-brdm{background-color:#0F335F;border-color:#707070;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:#707070;text-align:left;vertical-align:top}
+</style>
+
+<table class="tg" style="margin-top: 50px;">
+<thead>
+  <tr>
+    <th class="tg-b2ze">Oda Sicil No</th>
+    <th class="tg-b2ze">Ticari Sicil No</th>
+    <th class="tg-b2ze">Meslek Grubu</th>
+    <th class="tg-b2ze">Unvanı</th>
+    <th class="tg-k8w4">Tescilli Adresi</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+    <td class="tg-brdm"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  ,<tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+</div>
+   
+
+
+
+    <div class="menu-btn">
+    </div>
+      
+    <div class="side-bar">
+      
+         <a href="#"><img width="69px" src="izto.svg" style="margin-left: 30px;margin-top: 30px; margin-bottom: 30px;" style="float: left;"></a><p><b>İZMİR TİCARET ODASI</b></p><hr>
+      <br>
+       <a href="#"><img width="20px" src="hut.png" style="margin-left: 52px;"></a>
+          <a href="#"><img height="20px" src="user.png" style="margin-left: 20px;"></a>
+          <a href="#"><img width="20px" src="star.png" style="margin-left: 16px;"></a>
+          
+
+<div style="margin-left: 52px;">
+   <style>
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  background: #212A38;
+  border-right: none;
+  height: 30px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+form.example button {
+  float: left;
+  padding-right: 10px;  
+  background: #212A38;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  height: 30px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+form.example button:hover {
+  background: #808080;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<form class="example" action="/action_page.php" style="margin-top: 18px;max-width:250px">
+  <input type="text" placeholder="Sitede Ara" name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+            <hr style="margin-top: 20px; margin-bottom: 0px;">
+
+      <div class="menu">
+         
+         
+         <div class="item">
+          <a class="sub-btn"></i>Oda Sicil İşlemleri<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+           <hr>  <a href="#" class="sub-item">Oda Sicil Üye Firma Sorgulama</a>
+            <a href="#" class="sub-item">E-İmza Hizmetleri</a>
+            <a href="#" class="sub-item">E-İmza Belgeleri Sorgulama</a>
+            <a href="#" class="sub-item">Yeni Üye Kayıt Online Takip</a>
+            <a href="#" class="sub-item">Online Üye Bilgi Güncelleme</a>
+            <a href="#" class="sub-item">Oda Kayıt Belgesi Doğrulama</a>
+            <a href="#" class="sub-item">Islak İmzalı Belge Hizmetleri</a>
+          </div>
+        </div>
+<hr>
+        <div class="item">
+          <a class="sub-btn"></i>Aidat İşlemleri
+<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">Aidat Sorgulama</a>
+            <a href="#" class="sub-item">Tahsilat Makbuz Doğrulama</a>
+            
+          </div>
+        </div>
+        <hr>
+         <div class="item">
+          <a class="sub-btn"></i>Ticaret Sicili İşlemleri
+<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">Ticaret Sicili Arşiv Sorgulama</a>
+            <a href="#" class="sub-item">Dilekçe</a>
+            <a href="#" class="sub-item">TESCİL-BELGE Randevu Kayıt</a>
+            <a href="#" class="sub-item">TESCİL-BELGE Randevu İptal</a>
+            <a href="#" class="sub-item">TESCİL-BELGE Randevu Kayıt Sorgulama</a>
+            <a href="#" class="sub-item">LTD-A.Ş-KOOP Kuruluş Randevu Kayıt Sorgulama</a>
+            <a href="#" class="sub-item">E-İmzalı Tescil Belge Sorgulama</a>
+            <a href="#" class="sub-item">Ticaret Sicili Harç Ödeme</a>
+          </div>
+        </div>
+        <hr>
+        <div class="item">
+          <a class="sub-btn">Başvuru İşlemleri
+<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">Fuar Başvuru</a>
+            <a href="#" class="sub-item">Uçak Organizasyon Başvuru</a>
+          </div>
+        </div>
+        <hr>
+         <div class="item">
+          <a class="sub-btn"></i>Medos İşlemleri
+<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="#" class="sub-item">MEDOS Belge ve Tır Karnesi Satışı</a>
+            <a href="#" class="sub-item">MEDOS Mesaili İşlem Talep Formu</a>
+            
+          </div>
+          
+
+        </div>
+
+      </div class="sabit"><img src="earth.png" width="250px" style="opacity: 0.1; margin-top: -80px; z-index:-500;">
+      <div><img height="14px" src="phone.png" style="margin-left: 16px;"><b style="color: #fff; font-size: 17px; margin-left: 8px;">444 92 92</b>
+         <img height="15px" src="x.png" style="margin-left: 100px;">
+         <img height="15px" src="insta.png" style="margin-left: 11px;">
+         <img height="15px" src="face.png" style="margin-left: 16px;">
+      </div>
+    </div>
+    
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      //jquery for toggle sub menus
+      $('.sub-btn').click(function(){
+        $(this).next('.sub-menu').slideToggle();
+        $(this).find('.dropdown').toggleClass('rotate');
+      });
+
+      
+      $('.menu-btn').click(function(){
+        $('.side-bar').addClass('active');
+        $('.menu-btn').css("visibility", "hidden");
+      });
+
+      $('.close-btn').click(function(){
+        $('.side-bar').removeClass('active');
+        $('.menu-btn').css("visibility", "visible");
+      });
+    });
+    </script>
+
+  </body>
+</html>

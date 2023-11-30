@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Mulish";
+}
+
+.form-div{
+  
+  background-color: #0D284F;
+  border-radius: 20px;
+  align-self: center;
+  width: 50%;
+  padding: 10px; 
+  margin-top: 50px;
+  margin-left: 400px;
+  height: 50%;
+ 
+
+
+
+
+}
+
+label{
+  font-family: Mulish, sans-serif;
+  font-size: 10px;
+  color: whitesmoke;
+  letter-spacing: 0.7px;
+  text-align: left;
+  
+
+}
+
+
+
+.form-stil {
+  width: 30%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;,
+  background-color: #0D284F;
+  color: #0D284F;
+
+}
+.form-stil {
+
+
+  width: 90%;
+  padding: 8px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;,
+  background-color: #0D284F;
+  color: #0D284F;
+  text-align: left;}
+
+  .form-drop {
+  width: 45%;  
+  padding: 8px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;,
+  background-color: #0D284F;
+  color: #0D284F;
+  text-align: left;}
+
+.ilce-kodu {
+  
+  padding: 8px 8px;
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #0D284F;
+  text-align: left;
+
+  
+  color: #0D284F;}
+
+
+
+hr{
+  opacity: 0.1;
+}
+
+.side-bar{
+ background: #212A38;
+ 
+ width: 350px;
+ height: 300vh;
+ position: absolute;
+ top: 0;
+ left: 0%;
+ 
+ transition: 0.6s ease;
+ transition-property: left;
+}
+
+.side-bar.active{
+ left: 0;
+}
+
+.side-bar .menu{
+ width: 100%;
+ 
+ border-left: 22px;
+}
+
+.side-bar p{
+margin-top: 55px;
+margin-right: 60px;
+float: right;
+color: #fff;
+
+
+}
+
+
+
+.side-bar .menu .item{
+ position: relative;
+ cursor: pointer;
+}
+
+.side-bar .menu .item a{
+ color: #fff;
+ font-size: 17px;
+ text-decoration: none;
+ display: block;
+ padding: 5px 30px;
+ line-height: 45px;
+}
+
+
+
+.side-bar .menu .item a:hover{
+ background: #293444;
+ transition: 0.2s ease;
+ text-decoration-color: #FF7E64;
+ border-left-width: 7px;
+ border-color: #FF7E64;
+ border-left-style: solid;
+ border-left-color: #FF7E64;
+ color: #F38F7B;
+
+}
+.search-bar{
+  
+  background: #212A38;
+  font-family: 'Mulish', sans-serif;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  padding: 3px;
+
+
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.sabit {
+z-index:9999;
+position:fixed;
+_position:absolute;
+bottom:0px;
+right:0px;
+
+clip:rect(0 100 85 0);
+_top:expression(document.documentElement.scrollTop +document.documentElement.clientHeight-this.clientHeight);
+_left:expression(document.documentElement.scrollLe ft + document.documentElement.clientWidth - offsetWidth);
+}
+
+.side-bar .menu .item a .dropdown{
+ position: absolute;
+ right: 0;
+ margin: 20px;
+ transition: 0.3s ease;
+}
+
+
+.side-bar .menu .item .sub-menu{
+ 
+
+ background: #212A38;
+ display: none;
+ border-left-color: #fff;
+}
+
+.sub-item{
+  font-size: 5px;
+}
+
+.side-bar .menu .item .sub-menu a{
+ padding-left: 60px;
+ border-top-style: solid;
+ border-top-color: #353C46;
+ border-top-width: 1px;
+}
+
+.rotate{
+ transform: rotate(90deg);
+}
+
+.close-btn{
+ position: absolute;
+ color: #fff;
+ font-size: 20px;
+ right: 0;
+ margin: 25px;
+ cursor: pointer;
+}
+
+.menu-btn{
+ position: absolute;
+ color: #fff;
+ font-size: 20px;
+ margin: 25px;
+ cursor: pointer;
+}
+
+.main{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+}
+
+
+
+@media (max-width: 900px){
+ .main h1{
+   font-size: 40px;
+   line-height: 60px;
+ }
+}
+ 
+ .sorgula {
+  background-color: #FF7E64;
+  border: none;
+  color: white;
+  
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.2s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Mulish, sans-serif;
+  letter-spacing: 0.7px;
+  border-radius: 17px;
+  height: 40px;
+  width: 122px;
+
+
+}
+
+.sorgula:hover {background-color: #F38F7B}
